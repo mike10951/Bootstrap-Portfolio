@@ -9,7 +9,7 @@ body {
     clear: both; 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     body {
         width: 100%;
         font-size: 2rem;
@@ -98,4 +98,12 @@ img {
       background-color: #4aaaa5;
       width: 250px;
       padding: 10px 0;
+  }
+
+  .navbar-toggler {
+      width: 100px;
+      height: 100px;
+      background-color: #4aaaa5;
+      margin: 0;
+      padding: 0;
   }
