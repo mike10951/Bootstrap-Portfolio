@@ -9,6 +9,13 @@ body {
     clear: both; 
 }
 
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+        font-size: 2rem;
+    }
+}
+
 footer {
     text-align: center;
     background-color: #666666;
@@ -73,4 +80,22 @@ img {
     bottom: 0;
     left: 0;
     z-index: 1030;
+  }
+
+  .imageText {
+      position: relative;
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 0;
+  }
+
+  .centered {
+      position: absolute;
+      bottom: 5%;
+      left: 51%;
+      transform: translate(-50%, -50%);
+      background-color: #4aaaa5;
+      width: 250px;
+      padding: 10px 0;
   }
