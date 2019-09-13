@@ -105,3 +105,7 @@ img {
       margin: 0;
       padding: 0;
   }
+
+  #myPicture {
+      width: 200px;
+  }
